@@ -6,6 +6,8 @@ SAPUI5 Walkthrough practice.
 
 Used with docker (nginx proxy-pass + node server).
 
+In repo tags you can switch between walkthrough steps.
+ 
 # Run
 
 For start add network in docker (used for custom windows network with routing to virtual machine):
