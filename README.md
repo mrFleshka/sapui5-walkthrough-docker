@@ -1,6 +1,6 @@
 # Info
 
-SAPUI5 Walkthrough practice.
+SAPUI5 Walkthrough practice (For SAPUI5 version: 1.65.1).
 
 [Documentation](https://sapui5.hana.ondemand.com/#/topic/3da5f4be63264db99f2e5b04c5e853db)
 
