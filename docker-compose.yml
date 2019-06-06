@@ -22,7 +22,7 @@ services:
       context: .
       dockerfile: ./.docker/node/Dockerfile
     container_name: walkthrough-sapui5-node
-    command: ["ui5", "serve", "-p", "8085", "--accept-remote-connections", "--verbose"]
+    command: ["ui5", "serve", "-p", "8085", "--accept-remote-connections"]
     environment:
       - TZ=Europe/Moscow
     volumes:
