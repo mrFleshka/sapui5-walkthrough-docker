@@ -40,6 +40,15 @@ sap.ui.define([
 
         openHelloDialog : function () {
             this._helloDialog.open();
+        },
+
+        getContentDensityClass : function () {
+            if (!this._sContentDensityClass) {
+                this._sContentDensityClass = !Device.support.touch ? "sapUiSizeCompact" : "sapUiSizeCozy";
+            }
+            // You can't test this on desctop with touchscreen. It's been touch device at any emulator mode.
+            //console.log("this._sContentDensityClass = ", this._sContentDensityClass);
+            return this._sContentDensityClass;
         }
     });
 });
